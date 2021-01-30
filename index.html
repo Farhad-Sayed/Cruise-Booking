@@ -59,7 +59,7 @@
             <div class="input-group f-class">
                 <div>
                     <label for="">First Class ($150)</label>
-                    <input id="firstClass-ticket" class="inp-style inp-width" type="number" name="" value="1">
+                    <input id="firstClass-ticket" class="inp-style inp-width" type="number" name="" value="0">
                 </div>
                 <div class="plus-minus-btn">
                     <button onclick="cruiseTicket('firstClass', true)"> <i class="fas fa-plus"></i> </button>
@@ -70,7 +70,7 @@
             <div class="input-group f-class">
                 <div>
                     <label for="">Economy ($100)</label>
-                    <input id="economyClass-ticket" class="inp-style inp-width" type="number" name="" value="1">
+                    <input id="economyClass-ticket" class="inp-style inp-width" type="number" name="" value="0">
                 </div>
                 <div class="plus-minus-btn">
                     <button onclick="cruiseTicket('economyClass', true)"> <i class="fas fa-plus"></i> </button>
@@ -83,7 +83,7 @@
                         <p>Subtotal</p>
                     </div>
                     <div class="right">
-                        <p>$ <span id="subTotal">250</span></p>
+                        <p>$ <span id="subTotal">00</span></p>
                     </div>
                 </div>
 
@@ -92,7 +92,7 @@
                         <p>Charge 10% VAT</p>
                     </div>
                     <div class="right">
-                        <p>$ <span id="vatCharge">25</span></p>
+                        <p>$ <span id="vatCharge">00</span></p>
                     </div>
                 </div>
                 <hr>
@@ -101,7 +101,7 @@
                         <h4>Total</h4>
                     </div>
                     <div class="right">
-                        <p>$ <span id="grandTotal">275</span></p>
+                        <p>$ <span id="grandTotal">00</span></p>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@
             confirmationPage.style.display = 'block';
             confirmationPage.style.marginTop = '60px';
             alert('Your Ticket is Confirmed. Please Click ok to check Your Invoice')
-
+            //***Important Note: After click ok at alert box you will get an invoice***
         })
     </script>
 
